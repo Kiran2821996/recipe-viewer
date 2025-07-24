@@ -38,3 +38,36 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+
+
+
+
+###
+Recipe Viewer with Favorites
+A Next.js application that allows users to browse recipes using TheMealDB API, save favorite recipes to MongoDB, and manage their favorites.
+Setup
+
+Clone the repository
+Install dependencies: npm install
+Create a MongoDB Atlas account and get your connection string
+Create a .env.local file and add your MongoDB URI:
+
+MONGODB_URI=your_mongodb_atlas_connection_string
+
+
+Run the development server: npm run dev
+
+Deployment
+
+Push the code to a GitHub repository
+Connect to Vercel and deploy
+Add MONGODB_URI as an environment variable in Vercel dashboard
+
+Features
+
+View recipes from TheMealDB API
+See recipe details with ingredients and instructions
+Save and remove favorite recipes
+Responsive design for mobile, tablet, and desktop
+MongoDB integration for favorites storage
+
